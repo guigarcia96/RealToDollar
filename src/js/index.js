@@ -19,8 +19,8 @@ function insertValueInHTML(digitedValue, convertedValue, digitedValueConverted) 
       } else {
 
         h1.innerHTML = digitedValueConverted > 1 ?
-          `R$${digitedValueConverted} em Dollar são $${convertedValue}` :
-          `R$${digitedValueConverted} em Dollar é $${convertedValue}`
+          `R$${digitedValueConverted} em Dollar são $${convertedValue.toFixed(2)}` :
+          `R$${digitedValueConverted} em Dollar é $${convertedValue.toFixed(2)}`
         digitedValue.value = ''
       }
 
