@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(50,205,50, 0.5);
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+.container {
+  
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.convert {
+  display: flex;
+  flex-direction: row;
+}
+.img-container {
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.convert-container {
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.convert-container h1 {
+  text-align: center;
+  font-size: 50px;
+  
+}
+.convert-container input {
+  width: 300px;
+  border-radius: 10px;
+  height: 30px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 50px 0;
+  background-color:  rgba(50,205,50, 0.5) ;
+  border: 0px;
+}
+.convert-container a {
+  font-size: 20px;
+  line-height: 2em;
+  color: white;
+  background-color: rgba(50,205,50);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
+
+.img-class img {
+  width: 300px;
+  height: 300px;
+  margin-right: 80px;
+}
+
+.result{
+  margin-top: 50px;
+  text-align: center;
+  
+}
