@@ -2,6 +2,8 @@ let resultDiv = document.querySelector('.result')
 let h1 = document.querySelector('#finalResult')
 let valueButton = document.querySelector('#button')
 
+
+
 function insertValueInHTML(digitedValue, convertedValue, digitedValueConverted) {
   axios
     .get('https://free.currconv.com/api/v7/convert?q=BRL_USD&compact=ultra&apiKey=290f5fe71e4298e51733')

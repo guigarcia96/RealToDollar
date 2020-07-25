@@ -29,7 +29,8 @@ body {
   
 }
 .convert-container {
-  margin: 0 100px;
+  
+  margin: 0 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;

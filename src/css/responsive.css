@@ -1,0 +1,23 @@
+@media screen and (min-width: 280px) and (max-width: 1000px) {
+  
+  .convert {
+    justify-content: center;
+    
+  }
+  .img-container {
+    
+    display: none;
+  }
+  .img-class {
+    
+    display: none;
+  }
+  .convert-container {
+    
+    margin: 20px;
+    
+    
+  }
+
+
+}
