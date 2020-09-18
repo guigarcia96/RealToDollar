@@ -21,17 +21,15 @@ function insertValueInHTML(digitedValue, convertedValue, digitedValueConverted, 
     digitedValueConverted = parseFloat(digitedValueConverted).toLocaleString('pt-BR')
     
     
-    convertedValue = parseFloat(convertedValue.toFixed(2).toLocaleString('pt-BR'))
-    console.log(digitedValueConverted)
+    convertedValue = parseFloat(convertedValue.toFixed(2)).toLocaleString('pt-BR')
     
     
+    const result = digitedValueConverted > 1 ? `R$${String(digitedValueConverted)} em Dollar são $${convertedValue}` : `R$${String(digitedValueConverted)} em Dollar é $${convertedValue}`
 
     
     
 
-    h1.innerHTML = digitedValueConverted > 1 ?
-      `R$${String(digitedValueConverted)} em Dollar são $${String(convertedValue).replace('.', ',')}` :
-      `R$${String(digitedValueConverted)} em Dollar é $${String(convertedValue).replace('.', ',')}`
+    h1.innerHTML = result
     digitedValue.value = ''
   }
 
